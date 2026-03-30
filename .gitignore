@@ -1,0 +1,13 @@
+.DS_Store
+
+# Local secrets
+Jetter/Configuration/APIKeys.plist
+Jetter/Configuration/Secrets.xcconfig
+.env
+.env.*
+
+# Xcode user and build artifacts
+*.xcuserstate
+xcuserdata/
+Jetter.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+DerivedData/

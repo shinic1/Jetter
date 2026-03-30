@@ -1,0 +1,2288 @@
+[
+  {
+    "iataCode": "JFK",
+    "name": "John F. Kennedy International Airport",
+    "city": "New York",
+    "country": "United States",
+    "timezoneIdentifier": "America/New_York",
+    "latitude": 40.6413,
+    "longitude": -73.7781
+  },
+  {
+    "iataCode": "LAX",
+    "name": "Los Angeles International Airport",
+    "city": "Los Angeles",
+    "country": "United States",
+    "timezoneIdentifier": "America/Los_Angeles",
+    "latitude": 33.9425,
+    "longitude": -118.4081
+  },
+  {
+    "iataCode": "ORD",
+    "name": "O'Hare International Airport",
+    "city": "Chicago",
+    "country": "United States",
+    "timezoneIdentifier": "America/Chicago",
+    "latitude": 41.9742,
+    "longitude": -87.9073
+  },
+  {
+    "iataCode": "ATL",
+    "name": "Hartsfield-Jackson Atlanta International Airport",
+    "city": "Atlanta",
+    "country": "United States",
+    "timezoneIdentifier": "America/New_York",
+    "latitude": 33.6407,
+    "longitude": -84.4277
+  },
+  {
+    "iataCode": "DFW",
+    "name": "Dallas/Fort Worth International Airport",
+    "city": "Dallas",
+    "country": "United States",
+    "timezoneIdentifier": "America/Chicago",
+    "latitude": 32.8998,
+    "longitude": -97.0403
+  },
+  {
+    "iataCode": "SFO",
+    "name": "San Francisco International Airport",
+    "city": "San Francisco",
+    "country": "United States",
+    "timezoneIdentifier": "America/Los_Angeles",
+    "latitude": 37.6213,
+    "longitude": -122.3790
+  },
+  {
+    "iataCode": "MIA",
+    "name": "Miami International Airport",
+    "city": "Miami",
+    "country": "United States",
+    "timezoneIdentifier": "America/New_York",
+    "latitude": 25.7959,
+    "longitude": -80.2870
+  },
+  {
+    "iataCode": "SEA",
+    "name": "Seattle-Tacoma International Airport",
+    "city": "Seattle",
+    "country": "United States",
+    "timezoneIdentifier": "America/Los_Angeles",
+    "latitude": 47.4502,
+    "longitude": -122.3088
+  },
+  {
+    "iataCode": "BOS",
+    "name": "Boston Logan International Airport",
+    "city": "Boston",
+    "country": "United States",
+    "timezoneIdentifier": "America/New_York",
+    "latitude": 42.3656,
+    "longitude": -71.0096
+  },
+  {
+    "iataCode": "DEN",
+    "name": "Denver International Airport",
+    "city": "Denver",
+    "country": "United States",
+    "timezoneIdentifier": "America/Denver",
+    "latitude": 39.8561,
+    "longitude": -104.6737
+  },
+  {
+    "iataCode": "IAH",
+    "name": "George Bush Intercontinental Airport",
+    "city": "Houston",
+    "country": "United States",
+    "timezoneIdentifier": "America/Chicago",
+    "latitude": 29.9902,
+    "longitude": -95.3368
+  },
+  {
+    "iataCode": "EWR",
+    "name": "Newark Liberty International Airport",
+    "city": "Newark",
+    "country": "United States",
+    "timezoneIdentifier": "America/New_York",
+    "latitude": 40.6895,
+    "longitude": -74.1745
+  },
+  {
+    "iataCode": "PHX",
+    "name": "Phoenix Sky Harbor International Airport",
+    "city": "Phoenix",
+    "country": "United States",
+    "timezoneIdentifier": "America/Phoenix",
+    "latitude": 33.4373,
+    "longitude": -112.0078
+  },
+  {
+    "iataCode": "MSP",
+    "name": "Minneapolis-Saint Paul International Airport",
+    "city": "Minneapolis",
+    "country": "United States",
+    "timezoneIdentifier": "America/Chicago",
+    "latitude": 44.8848,
+    "longitude": -93.2223
+  },
+  {
+    "iataCode": "DTW",
+    "name": "Detroit Metropolitan Wayne County Airport",
+    "city": "Detroit",
+    "country": "United States",
+    "timezoneIdentifier": "America/Detroit",
+    "latitude": 42.2124,
+    "longitude": -83.3534
+  },
+  {
+    "iataCode": "LAS",
+    "name": "Harry Reid International Airport",
+    "city": "Las Vegas",
+    "country": "United States",
+    "timezoneIdentifier": "America/Los_Angeles",
+    "latitude": 36.0840,
+    "longitude": -115.1537
+  },
+  {
+    "iataCode": "MCO",
+    "name": "Orlando International Airport",
+    "city": "Orlando",
+    "country": "United States",
+    "timezoneIdentifier": "America/New_York",
+    "latitude": 28.4312,
+    "longitude": -81.3081
+  },
+  {
+    "iataCode": "CLT",
+    "name": "Charlotte Douglas International Airport",
+    "city": "Charlotte",
+    "country": "United States",
+    "timezoneIdentifier": "America/New_York",
+    "latitude": 35.2140,
+    "longitude": -80.9431
+  },
+  {
+    "iataCode": "PHL",
+    "name": "Philadelphia International Airport",
+    "city": "Philadelphia",
+    "country": "United States",
+    "timezoneIdentifier": "America/New_York",
+    "latitude": 39.8744,
+    "longitude": -75.2424
+  },
+  {
+    "iataCode": "IAD",
+    "name": "Washington Dulles International Airport",
+    "city": "Washington",
+    "country": "United States",
+    "timezoneIdentifier": "America/New_York",
+    "latitude": 38.9531,
+    "longitude": -77.4565
+  },
+  {
+    "iataCode": "BWI",
+    "name": "Baltimore/Washington International Airport",
+    "city": "Baltimore",
+    "country": "United States",
+    "timezoneIdentifier": "America/New_York",
+    "latitude": 39.1754,
+    "longitude": -76.6684
+  },
+  {
+    "iataCode": "SLC",
+    "name": "Salt Lake City International Airport",
+    "city": "Salt Lake City",
+    "country": "United States",
+    "timezoneIdentifier": "America/Denver",
+    "latitude": 40.7899,
+    "longitude": -111.9791
+  },
+  {
+    "iataCode": "SAN",
+    "name": "San Diego International Airport",
+    "city": "San Diego",
+    "country": "United States",
+    "timezoneIdentifier": "America/Los_Angeles",
+    "latitude": 32.7336,
+    "longitude": -117.1897
+  },
+  {
+    "iataCode": "TPA",
+    "name": "Tampa International Airport",
+    "city": "Tampa",
+    "country": "United States",
+    "timezoneIdentifier": "America/New_York",
+    "latitude": 27.9755,
+    "longitude": -82.5332
+  },
+  {
+    "iataCode": "STL",
+    "name": "St. Louis Lambert International Airport",
+    "city": "St. Louis",
+    "country": "United States",
+    "timezoneIdentifier": "America/Chicago",
+    "latitude": 38.7487,
+    "longitude": -90.3700
+  },
+  {
+    "iataCode": "PDX",
+    "name": "Portland International Airport",
+    "city": "Portland",
+    "country": "United States",
+    "timezoneIdentifier": "America/Los_Angeles",
+    "latitude": 45.5898,
+    "longitude": -122.5951
+  },
+  {
+    "iataCode": "AUS",
+    "name": "Austin-Bergstrom International Airport",
+    "city": "Austin",
+    "country": "United States",
+    "timezoneIdentifier": "America/Chicago",
+    "latitude": 30.1975,
+    "longitude": -97.6664
+  },
+  {
+    "iataCode": "BNA",
+    "name": "Nashville International Airport",
+    "city": "Nashville",
+    "country": "United States",
+    "timezoneIdentifier": "America/Chicago",
+    "latitude": 36.1263,
+    "longitude": -86.6774
+  },
+  {
+    "iataCode": "RDU",
+    "name": "Raleigh-Durham International Airport",
+    "city": "Raleigh",
+    "country": "United States",
+    "timezoneIdentifier": "America/New_York",
+    "latitude": 35.8776,
+    "longitude": -78.7875
+  },
+  {
+    "iataCode": "MKE",
+    "name": "Milwaukee Mitchell International Airport",
+    "city": "Milwaukee",
+    "country": "United States",
+    "timezoneIdentifier": "America/Chicago",
+    "latitude": 42.9472,
+    "longitude": -87.8966
+  },
+  {
+    "iataCode": "HNL",
+    "name": "Daniel K. Inouye International Airport",
+    "city": "Honolulu",
+    "country": "United States",
+    "timezoneIdentifier": "Pacific/Honolulu",
+    "latitude": 21.3187,
+    "longitude": -157.9225
+  },
+  {
+    "iataCode": "ANC",
+    "name": "Ted Stevens Anchorage International Airport",
+    "city": "Anchorage",
+    "country": "United States",
+    "timezoneIdentifier": "America/Anchorage",
+    "latitude": 61.1743,
+    "longitude": -149.9962
+  },
+  {
+    "iataCode": "YYZ",
+    "name": "Toronto Pearson International Airport",
+    "city": "Toronto",
+    "country": "Canada",
+    "timezoneIdentifier": "America/Toronto",
+    "latitude": 43.6777,
+    "longitude": -79.6248
+  },
+  {
+    "iataCode": "YVR",
+    "name": "Vancouver International Airport",
+    "city": "Vancouver",
+    "country": "Canada",
+    "timezoneIdentifier": "America/Vancouver",
+    "latitude": 49.1967,
+    "longitude": -123.1815
+  },
+  {
+    "iataCode": "YUL",
+    "name": "Montréal-Pierre Elliott Trudeau International Airport",
+    "city": "Montreal",
+    "country": "Canada",
+    "timezoneIdentifier": "America/Toronto",
+    "latitude": 45.4706,
+    "longitude": -73.7408
+  },
+  {
+    "iataCode": "YYC",
+    "name": "Calgary International Airport",
+    "city": "Calgary",
+    "country": "Canada",
+    "timezoneIdentifier": "America/Edmonton",
+    "latitude": 51.1215,
+    "longitude": -114.0076
+  },
+  {
+    "iataCode": "YOW",
+    "name": "Ottawa Macdonald-Cartier International Airport",
+    "city": "Ottawa",
+    "country": "Canada",
+    "timezoneIdentifier": "America/Toronto",
+    "latitude": 45.3208,
+    "longitude": -75.6692
+  },
+  {
+    "iataCode": "YEG",
+    "name": "Edmonton International Airport",
+    "city": "Edmonton",
+    "country": "Canada",
+    "timezoneIdentifier": "America/Edmonton",
+    "latitude": 53.3097,
+    "longitude": -113.5800
+  },
+  {
+    "iataCode": "YHZ",
+    "name": "Halifax Stanfield International Airport",
+    "city": "Halifax",
+    "country": "Canada",
+    "timezoneIdentifier": "America/Halifax",
+    "latitude": 44.8808,
+    "longitude": -63.5086
+  },
+  {
+    "iataCode": "YWG",
+    "name": "Winnipeg James Armstrong Richardson International Airport",
+    "city": "Winnipeg",
+    "country": "Canada",
+    "timezoneIdentifier": "America/Winnipeg",
+    "latitude": 49.9100,
+    "longitude": -97.2399
+  },
+  {
+    "iataCode": "MEX",
+    "name": "Mexico City International Airport",
+    "city": "Mexico City",
+    "country": "Mexico",
+    "timezoneIdentifier": "America/Mexico_City",
+    "latitude": 19.4363,
+    "longitude": -99.0721
+  },
+  {
+    "iataCode": "CUN",
+    "name": "Cancún International Airport",
+    "city": "Cancun",
+    "country": "Mexico",
+    "timezoneIdentifier": "America/Cancun",
+    "latitude": 21.0365,
+    "longitude": -86.8771
+  },
+  {
+    "iataCode": "GDL",
+    "name": "Guadalajara International Airport",
+    "city": "Guadalajara",
+    "country": "Mexico",
+    "timezoneIdentifier": "America/Mexico_City",
+    "latitude": 20.5218,
+    "longitude": -103.3113
+  },
+  {
+    "iataCode": "MTY",
+    "name": "Monterrey International Airport",
+    "city": "Monterrey",
+    "country": "Mexico",
+    "timezoneIdentifier": "America/Monterrey",
+    "latitude": 25.7785,
+    "longitude": -100.1069
+  },
+  {
+    "iataCode": "SJD",
+    "name": "Los Cabos International Airport",
+    "city": "San Jose del Cabo",
+    "country": "Mexico",
+    "timezoneIdentifier": "America/Mazatlan",
+    "latitude": 23.1518,
+    "longitude": -109.7215
+  },
+  {
+    "iataCode": "PVR",
+    "name": "Licenciado Gustavo Díaz Ordaz International Airport",
+    "city": "Puerto Vallarta",
+    "country": "Mexico",
+    "timezoneIdentifier": "America/Mexico_City",
+    "latitude": 20.6801,
+    "longitude": -105.2544
+  },
+  {
+    "iataCode": "SJU",
+    "name": "Luis Muñoz Marín International Airport",
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "timezoneIdentifier": "America/Puerto_Rico",
+    "latitude": 18.4394,
+    "longitude": -66.0018
+  },
+  {
+    "iataCode": "NAS",
+    "name": "Lynden Pindling International Airport",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "timezoneIdentifier": "America/Nassau",
+    "latitude": 25.0390,
+    "longitude": -77.4662
+  },
+  {
+    "iataCode": "MBJ",
+    "name": "Sangster International Airport",
+    "city": "Montego Bay",
+    "country": "Jamaica",
+    "timezoneIdentifier": "America/Jamaica",
+    "latitude": 18.5037,
+    "longitude": -77.9134
+  },
+  {
+    "iataCode": "PUJ",
+    "name": "Punta Cana International Airport",
+    "city": "Punta Cana",
+    "country": "Dominican Republic",
+    "timezoneIdentifier": "America/Santo_Domingo",
+    "latitude": 18.5674,
+    "longitude": -68.3634
+  },
+  {
+    "iataCode": "LHR",
+    "name": "Heathrow Airport",
+    "city": "London",
+    "country": "United Kingdom",
+    "timezoneIdentifier": "Europe/London",
+    "latitude": 51.4700,
+    "longitude": -0.4543
+  },
+  {
+    "iataCode": "LGW",
+    "name": "Gatwick Airport",
+    "city": "London",
+    "country": "United Kingdom",
+    "timezoneIdentifier": "Europe/London",
+    "latitude": 51.1537,
+    "longitude": -0.1821
+  },
+  {
+    "iataCode": "CDG",
+    "name": "Charles de Gaulle Airport",
+    "city": "Paris",
+    "country": "France",
+    "timezoneIdentifier": "Europe/Paris",
+    "latitude": 49.0097,
+    "longitude": 2.5479
+  },
+  {
+    "iataCode": "ORY",
+    "name": "Orly Airport",
+    "city": "Paris",
+    "country": "France",
+    "timezoneIdentifier": "Europe/Paris",
+    "latitude": 48.7262,
+    "longitude": 2.3652
+  },
+  {
+    "iataCode": "FRA",
+    "name": "Frankfurt Airport",
+    "city": "Frankfurt",
+    "country": "Germany",
+    "timezoneIdentifier": "Europe/Berlin",
+    "latitude": 50.0379,
+    "longitude": 8.5622
+  },
+  {
+    "iataCode": "MUC",
+    "name": "Munich Airport",
+    "city": "Munich",
+    "country": "Germany",
+    "timezoneIdentifier": "Europe/Berlin",
+    "latitude": 48.3537,
+    "longitude": 11.7750
+  },
+  {
+    "iataCode": "AMS",
+    "name": "Amsterdam Airport Schiphol",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "timezoneIdentifier": "Europe/Amsterdam",
+    "latitude": 52.3105,
+    "longitude": 4.7683
+  },
+  {
+    "iataCode": "MAD",
+    "name": "Adolfo Suárez Madrid-Barajas Airport",
+    "city": "Madrid",
+    "country": "Spain",
+    "timezoneIdentifier": "Europe/Madrid",
+    "latitude": 40.4983,
+    "longitude": -3.5676
+  },
+  {
+    "iataCode": "BCN",
+    "name": "Josep Tarradellas Barcelona-El Prat Airport",
+    "city": "Barcelona",
+    "country": "Spain",
+    "timezoneIdentifier": "Europe/Madrid",
+    "latitude": 41.2971,
+    "longitude": 2.0785
+  },
+  {
+    "iataCode": "FCO",
+    "name": "Leonardo da Vinci-Fiumicino Airport",
+    "city": "Rome",
+    "country": "Italy",
+    "timezoneIdentifier": "Europe/Rome",
+    "latitude": 41.8003,
+    "longitude": 12.2389
+  },
+  {
+    "iataCode": "MXP",
+    "name": "Milan Malpensa Airport",
+    "city": "Milan",
+    "country": "Italy",
+    "timezoneIdentifier": "Europe/Rome",
+    "latitude": 45.6306,
+    "longitude": 8.7281
+  },
+  {
+    "iataCode": "ZRH",
+    "name": "Zurich Airport",
+    "city": "Zurich",
+    "country": "Switzerland",
+    "timezoneIdentifier": "Europe/Zurich",
+    "latitude": 47.4647,
+    "longitude": 8.5492
+  },
+  {
+    "iataCode": "VIE",
+    "name": "Vienna International Airport",
+    "city": "Vienna",
+    "country": "Austria",
+    "timezoneIdentifier": "Europe/Vienna",
+    "latitude": 48.1103,
+    "longitude": 16.5697
+  },
+  {
+    "iataCode": "BRU",
+    "name": "Brussels Airport",
+    "city": "Brussels",
+    "country": "Belgium",
+    "timezoneIdentifier": "Europe/Brussels",
+    "latitude": 50.9014,
+    "longitude": 4.4844
+  },
+  {
+    "iataCode": "LIS",
+    "name": "Humberto Delgado Airport",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "timezoneIdentifier": "Europe/Lisbon",
+    "latitude": 38.7742,
+    "longitude": -9.1342
+  },
+  {
+    "iataCode": "CPH",
+    "name": "Copenhagen Airport",
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "timezoneIdentifier": "Europe/Copenhagen",
+    "latitude": 55.6180,
+    "longitude": 12.6508
+  },
+  {
+    "iataCode": "OSL",
+    "name": "Oslo Gardermoen Airport",
+    "city": "Oslo",
+    "country": "Norway",
+    "timezoneIdentifier": "Europe/Oslo",
+    "latitude": 60.1976,
+    "longitude": 11.1004
+  },
+  {
+    "iataCode": "ARN",
+    "name": "Stockholm Arlanda Airport",
+    "city": "Stockholm",
+    "country": "Sweden",
+    "timezoneIdentifier": "Europe/Stockholm",
+    "latitude": 59.6519,
+    "longitude": 17.9186
+  },
+  {
+    "iataCode": "HEL",
+    "name": "Helsinki-Vantaa Airport",
+    "city": "Helsinki",
+    "country": "Finland",
+    "timezoneIdentifier": "Europe/Helsinki",
+    "latitude": 60.3172,
+    "longitude": 24.9633
+  },
+  {
+    "iataCode": "DUB",
+    "name": "Dublin Airport",
+    "city": "Dublin",
+    "country": "Ireland",
+    "timezoneIdentifier": "Europe/Dublin",
+    "latitude": 53.4264,
+    "longitude": -6.2499
+  },
+  {
+    "iataCode": "EDI",
+    "name": "Edinburgh Airport",
+    "city": "Edinburgh",
+    "country": "United Kingdom",
+    "timezoneIdentifier": "Europe/London",
+    "latitude": 55.9500,
+    "longitude": -3.3725
+  },
+  {
+    "iataCode": "MAN",
+    "name": "Manchester Airport",
+    "city": "Manchester",
+    "country": "United Kingdom",
+    "timezoneIdentifier": "Europe/London",
+    "latitude": 53.3537,
+    "longitude": -2.2750
+  },
+  {
+    "iataCode": "ATH",
+    "name": "Athens International Airport",
+    "city": "Athens",
+    "country": "Greece",
+    "timezoneIdentifier": "Europe/Athens",
+    "latitude": 37.9364,
+    "longitude": 23.9445
+  },
+  {
+    "iataCode": "IST",
+    "name": "Istanbul Airport",
+    "city": "Istanbul",
+    "country": "Turkey",
+    "timezoneIdentifier": "Europe/Istanbul",
+    "latitude": 41.2753,
+    "longitude": 28.7519
+  },
+  {
+    "iataCode": "SAW",
+    "name": "Sabiha Gökçen International Airport",
+    "city": "Istanbul",
+    "country": "Turkey",
+    "timezoneIdentifier": "Europe/Istanbul",
+    "latitude": 40.8986,
+    "longitude": 29.3092
+  },
+  {
+    "iataCode": "WAW",
+    "name": "Warsaw Chopin Airport",
+    "city": "Warsaw",
+    "country": "Poland",
+    "timezoneIdentifier": "Europe/Warsaw",
+    "latitude": 52.1657,
+    "longitude": 20.9671
+  },
+  {
+    "iataCode": "PRG",
+    "name": "Václav Havel Airport Prague",
+    "city": "Prague",
+    "country": "Czech Republic",
+    "timezoneIdentifier": "Europe/Prague",
+    "latitude": 50.1008,
+    "longitude": 14.2600
+  },
+  {
+    "iataCode": "BUD",
+    "name": "Budapest Ferenc Liszt International Airport",
+    "city": "Budapest",
+    "country": "Hungary",
+    "timezoneIdentifier": "Europe/Budapest",
+    "latitude": 47.4369,
+    "longitude": 19.2556
+  },
+  {
+    "iataCode": "OTP",
+    "name": "Henri Coandă International Airport",
+    "city": "Bucharest",
+    "country": "Romania",
+    "timezoneIdentifier": "Europe/Bucharest",
+    "latitude": 44.5711,
+    "longitude": 26.0850
+  },
+  {
+    "iataCode": "ZAG",
+    "name": "Franjo Tuđman Airport",
+    "city": "Zagreb",
+    "country": "Croatia",
+    "timezoneIdentifier": "Europe/Zagreb",
+    "latitude": 45.7429,
+    "longitude": 16.0688
+  },
+  {
+    "iataCode": "BEG",
+    "name": "Belgrade Nikola Tesla Airport",
+    "city": "Belgrade",
+    "country": "Serbia",
+    "timezoneIdentifier": "Europe/Belgrade",
+    "latitude": 44.8184,
+    "longitude": 20.3091
+  },
+  {
+    "iataCode": "TXL",
+    "name": "Berlin Tegel Airport",
+    "city": "Berlin",
+    "country": "Germany",
+    "timezoneIdentifier": "Europe/Berlin",
+    "latitude": 52.5597,
+    "longitude": 13.2877
+  },
+  {
+    "iataCode": "HAM",
+    "name": "Hamburg Airport",
+    "city": "Hamburg",
+    "country": "Germany",
+    "timezoneIdentifier": "Europe/Berlin",
+    "latitude": 53.6304,
+    "longitude": 9.9882
+  },
+  {
+    "iataCode": "SVO",
+    "name": "Sheremetyevo International Airport",
+    "city": "Moscow",
+    "country": "Russia",
+    "timezoneIdentifier": "Europe/Moscow",
+    "latitude": 55.9726,
+    "longitude": 37.4146
+  },
+  {
+    "iataCode": "LED",
+    "name": "Pulkovo Airport",
+    "city": "Saint Petersburg",
+    "country": "Russia",
+    "timezoneIdentifier": "Europe/Moscow",
+    "latitude": 59.8003,
+    "longitude": 30.2625
+  },
+  {
+    "iataCode": "DME",
+    "name": "Domodedovo International Airport",
+    "city": "Moscow",
+    "country": "Russia",
+    "timezoneIdentifier": "Europe/Moscow",
+    "latitude": 55.4088,
+    "longitude": 37.9063
+  },
+  {
+    "iataCode": "NRT",
+    "name": "Narita International Airport",
+    "city": "Tokyo",
+    "country": "Japan",
+    "timezoneIdentifier": "Asia/Tokyo",
+    "latitude": 35.7647,
+    "longitude": 140.3864
+  },
+  {
+    "iataCode": "HND",
+    "name": "Haneda Airport",
+    "city": "Tokyo",
+    "country": "Japan",
+    "timezoneIdentifier": "Asia/Tokyo",
+    "latitude": 35.5494,
+    "longitude": 139.7798
+  },
+  {
+    "iataCode": "KIX",
+    "name": "Kansai International Airport",
+    "city": "Osaka",
+    "country": "Japan",
+    "timezoneIdentifier": "Asia/Tokyo",
+    "latitude": 34.4347,
+    "longitude": 135.2441
+  },
+  {
+    "iataCode": "ICN",
+    "name": "Incheon International Airport",
+    "city": "Seoul",
+    "country": "South Korea",
+    "timezoneIdentifier": "Asia/Seoul",
+    "latitude": 37.4602,
+    "longitude": 126.4407
+  },
+  {
+    "iataCode": "GMP",
+    "name": "Gimpo International Airport",
+    "city": "Seoul",
+    "country": "South Korea",
+    "timezoneIdentifier": "Asia/Seoul",
+    "latitude": 37.5583,
+    "longitude": 126.7906
+  },
+  {
+    "iataCode": "PEK",
+    "name": "Beijing Capital International Airport",
+    "city": "Beijing",
+    "country": "China",
+    "timezoneIdentifier": "Asia/Shanghai",
+    "latitude": 40.0799,
+    "longitude": 116.6031
+  },
+  {
+    "iataCode": "PKX",
+    "name": "Beijing Daxing International Airport",
+    "city": "Beijing",
+    "country": "China",
+    "timezoneIdentifier": "Asia/Shanghai",
+    "latitude": 39.5098,
+    "longitude": 116.4105
+  },
+  {
+    "iataCode": "PVG",
+    "name": "Shanghai Pudong International Airport",
+    "city": "Shanghai",
+    "country": "China",
+    "timezoneIdentifier": "Asia/Shanghai",
+    "latitude": 31.1443,
+    "longitude": 121.8083
+  },
+  {
+    "iataCode": "SHA",
+    "name": "Shanghai Hongqiao International Airport",
+    "city": "Shanghai",
+    "country": "China",
+    "timezoneIdentifier": "Asia/Shanghai",
+    "latitude": 31.1979,
+    "longitude": 121.3363
+  },
+  {
+    "iataCode": "HKG",
+    "name": "Hong Kong International Airport",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "timezoneIdentifier": "Asia/Hong_Kong",
+    "latitude": 22.3080,
+    "longitude": 113.9185
+  },
+  {
+    "iataCode": "TPE",
+    "name": "Taiwan Taoyuan International Airport",
+    "city": "Taipei",
+    "country": "Taiwan",
+    "timezoneIdentifier": "Asia/Taipei",
+    "latitude": 25.0777,
+    "longitude": 121.2330
+  },
+  {
+    "iataCode": "BKK",
+    "name": "Suvarnabhumi Airport",
+    "city": "Bangkok",
+    "country": "Thailand",
+    "timezoneIdentifier": "Asia/Bangkok",
+    "latitude": 13.6900,
+    "longitude": 100.7501
+  },
+  {
+    "iataCode": "SIN",
+    "name": "Singapore Changi Airport",
+    "city": "Singapore",
+    "country": "Singapore",
+    "timezoneIdentifier": "Asia/Singapore",
+    "latitude": 1.3644,
+    "longitude": 103.9915
+  },
+  {
+    "iataCode": "KUL",
+    "name": "Kuala Lumpur International Airport",
+    "city": "Kuala Lumpur",
+    "country": "Malaysia",
+    "timezoneIdentifier": "Asia/Kuala_Lumpur",
+    "latitude": 2.7456,
+    "longitude": 101.7099
+  },
+  {
+    "iataCode": "CGK",
+    "name": "Soekarno-Hatta International Airport",
+    "city": "Jakarta",
+    "country": "Indonesia",
+    "timezoneIdentifier": "Asia/Jakarta",
+    "latitude": -6.1256,
+    "longitude": 106.6559
+  },
+  {
+    "iataCode": "MNL",
+    "name": "Ninoy Aquino International Airport",
+    "city": "Manila",
+    "country": "Philippines",
+    "timezoneIdentifier": "Asia/Manila",
+    "latitude": 14.5086,
+    "longitude": 121.0197
+  },
+  {
+    "iataCode": "SGN",
+    "name": "Tan Son Nhat International Airport",
+    "city": "Ho Chi Minh City",
+    "country": "Vietnam",
+    "timezoneIdentifier": "Asia/Ho_Chi_Minh",
+    "latitude": 10.8188,
+    "longitude": 106.6520
+  },
+  {
+    "iataCode": "HAN",
+    "name": "Noi Bai International Airport",
+    "city": "Hanoi",
+    "country": "Vietnam",
+    "timezoneIdentifier": "Asia/Ho_Chi_Minh",
+    "latitude": 21.2212,
+    "longitude": 105.8070
+  },
+  {
+    "iataCode": "DEL",
+    "name": "Indira Gandhi International Airport",
+    "city": "New Delhi",
+    "country": "India",
+    "timezoneIdentifier": "Asia/Kolkata",
+    "latitude": 28.5562,
+    "longitude": 77.1000
+  },
+  {
+    "iataCode": "BOM",
+    "name": "Chhatrapati Shivaji Maharaj International Airport",
+    "city": "Mumbai",
+    "country": "India",
+    "timezoneIdentifier": "Asia/Kolkata",
+    "latitude": 19.0896,
+    "longitude": 72.8656
+  },
+  {
+    "iataCode": "BLR",
+    "name": "Kempegowda International Airport",
+    "city": "Bangalore",
+    "country": "India",
+    "timezoneIdentifier": "Asia/Kolkata",
+    "latitude": 13.1986,
+    "longitude": 77.7066
+  },
+  {
+    "iataCode": "MAA",
+    "name": "Chennai International Airport",
+    "city": "Chennai",
+    "country": "India",
+    "timezoneIdentifier": "Asia/Kolkata",
+    "latitude": 12.9941,
+    "longitude": 80.1709
+  },
+  {
+    "iataCode": "CCU",
+    "name": "Netaji Subhas Chandra Bose International Airport",
+    "city": "Kolkata",
+    "country": "India",
+    "timezoneIdentifier": "Asia/Kolkata",
+    "latitude": 22.6547,
+    "longitude": 88.4467
+  },
+  {
+    "iataCode": "DXB",
+    "name": "Dubai International Airport",
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "timezoneIdentifier": "Asia/Dubai",
+    "latitude": 25.2532,
+    "longitude": 55.3657
+  },
+  {
+    "iataCode": "AUH",
+    "name": "Abu Dhabi International Airport",
+    "city": "Abu Dhabi",
+    "country": "United Arab Emirates",
+    "timezoneIdentifier": "Asia/Dubai",
+    "latitude": 24.4330,
+    "longitude": 54.6511
+  },
+  {
+    "iataCode": "DOH",
+    "name": "Hamad International Airport",
+    "city": "Doha",
+    "country": "Qatar",
+    "timezoneIdentifier": "Asia/Qatar",
+    "latitude": 25.2731,
+    "longitude": 51.6081
+  },
+  {
+    "iataCode": "RUH",
+    "name": "King Khalid International Airport",
+    "city": "Riyadh",
+    "country": "Saudi Arabia",
+    "timezoneIdentifier": "Asia/Riyadh",
+    "latitude": 24.9578,
+    "longitude": 46.6989
+  },
+  {
+    "iataCode": "JED",
+    "name": "King Abdulaziz International Airport",
+    "city": "Jeddah",
+    "country": "Saudi Arabia",
+    "timezoneIdentifier": "Asia/Riyadh",
+    "latitude": 21.6796,
+    "longitude": 39.1565
+  },
+  {
+    "iataCode": "TLV",
+    "name": "Ben Gurion Airport",
+    "city": "Tel Aviv",
+    "country": "Israel",
+    "timezoneIdentifier": "Asia/Jerusalem",
+    "latitude": 32.0114,
+    "longitude": 34.8867
+  },
+  {
+    "iataCode": "AMM",
+    "name": "Queen Alia International Airport",
+    "city": "Amman",
+    "country": "Jordan",
+    "timezoneIdentifier": "Asia/Amman",
+    "latitude": 31.7226,
+    "longitude": 35.9932
+  },
+  {
+    "iataCode": "KWI",
+    "name": "Kuwait International Airport",
+    "city": "Kuwait City",
+    "country": "Kuwait",
+    "timezoneIdentifier": "Asia/Kuwait",
+    "latitude": 29.2266,
+    "longitude": 47.9689
+  },
+  {
+    "iataCode": "BAH",
+    "name": "Bahrain International Airport",
+    "city": "Manama",
+    "country": "Bahrain",
+    "timezoneIdentifier": "Asia/Bahrain",
+    "latitude": 26.2708,
+    "longitude": 50.6336
+  },
+  {
+    "iataCode": "MCT",
+    "name": "Muscat International Airport",
+    "city": "Muscat",
+    "country": "Oman",
+    "timezoneIdentifier": "Asia/Muscat",
+    "latitude": 23.5933,
+    "longitude": 58.2844
+  },
+  {
+    "iataCode": "ISB",
+    "name": "Islamabad International Airport",
+    "city": "Islamabad",
+    "country": "Pakistan",
+    "timezoneIdentifier": "Asia/Karachi",
+    "latitude": 33.5605,
+    "longitude": 72.8526
+  },
+  {
+    "iataCode": "LHE",
+    "name": "Allama Iqbal International Airport",
+    "city": "Lahore",
+    "country": "Pakistan",
+    "timezoneIdentifier": "Asia/Karachi",
+    "latitude": 31.5216,
+    "longitude": 74.4036
+  },
+  {
+    "iataCode": "KHI",
+    "name": "Jinnah International Airport",
+    "city": "Karachi",
+    "country": "Pakistan",
+    "timezoneIdentifier": "Asia/Karachi",
+    "latitude": 24.9065,
+    "longitude": 67.1610
+  },
+  {
+    "iataCode": "DAC",
+    "name": "Hazrat Shahjalal International Airport",
+    "city": "Dhaka",
+    "country": "Bangladesh",
+    "timezoneIdentifier": "Asia/Dhaka",
+    "latitude": 23.8432,
+    "longitude": 90.3984
+  },
+  {
+    "iataCode": "CMB",
+    "name": "Bandaranaike International Airport",
+    "city": "Colombo",
+    "country": "Sri Lanka",
+    "timezoneIdentifier": "Asia/Colombo",
+    "latitude": 7.1808,
+    "longitude": 79.8841
+  },
+  {
+    "iataCode": "KTM",
+    "name": "Tribhuvan International Airport",
+    "city": "Kathmandu",
+    "country": "Nepal",
+    "timezoneIdentifier": "Asia/Kathmandu",
+    "latitude": 27.6966,
+    "longitude": 85.3591
+  },
+  {
+    "iataCode": "RGN",
+    "name": "Yangon International Airport",
+    "city": "Yangon",
+    "country": "Myanmar",
+    "timezoneIdentifier": "Asia/Yangon",
+    "latitude": 16.9073,
+    "longitude": 96.1332
+  },
+  {
+    "iataCode": "SYD",
+    "name": "Sydney Kingsford Smith Airport",
+    "city": "Sydney",
+    "country": "Australia",
+    "timezoneIdentifier": "Australia/Sydney",
+    "latitude": -33.9461,
+    "longitude": 151.1772
+  },
+  {
+    "iataCode": "MEL",
+    "name": "Melbourne Airport",
+    "city": "Melbourne",
+    "country": "Australia",
+    "timezoneIdentifier": "Australia/Melbourne",
+    "latitude": -37.6690,
+    "longitude": 144.8410
+  },
+  {
+    "iataCode": "BNE",
+    "name": "Brisbane Airport",
+    "city": "Brisbane",
+    "country": "Australia",
+    "timezoneIdentifier": "Australia/Brisbane",
+    "latitude": -27.3842,
+    "longitude": 153.1175
+  },
+  {
+    "iataCode": "PER",
+    "name": "Perth Airport",
+    "city": "Perth",
+    "country": "Australia",
+    "timezoneIdentifier": "Australia/Perth",
+    "latitude": -31.9403,
+    "longitude": 115.9672
+  },
+  {
+    "iataCode": "AKL",
+    "name": "Auckland Airport",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "timezoneIdentifier": "Pacific/Auckland",
+    "latitude": -37.0082,
+    "longitude": 174.7850
+  },
+  {
+    "iataCode": "CHC",
+    "name": "Christchurch Airport",
+    "city": "Christchurch",
+    "country": "New Zealand",
+    "timezoneIdentifier": "Pacific/Auckland",
+    "latitude": -43.4894,
+    "longitude": 172.5322
+  },
+  {
+    "iataCode": "WLG",
+    "name": "Wellington Airport",
+    "city": "Wellington",
+    "country": "New Zealand",
+    "timezoneIdentifier": "Pacific/Auckland",
+    "latitude": -41.3272,
+    "longitude": 174.8053
+  },
+  {
+    "iataCode": "NAN",
+    "name": "Nadi International Airport",
+    "city": "Nadi",
+    "country": "Fiji",
+    "timezoneIdentifier": "Pacific/Fiji",
+    "latitude": -17.7554,
+    "longitude": 177.4431
+  },
+  {
+    "iataCode": "PPT",
+    "name": "Faa'a International Airport",
+    "city": "Papeete",
+    "country": "French Polynesia",
+    "timezoneIdentifier": "Pacific/Tahiti",
+    "latitude": -17.5537,
+    "longitude": -149.6071
+  },
+  {
+    "iataCode": "GRU",
+    "name": "São Paulo/Guarulhos International Airport",
+    "city": "Sao Paulo",
+    "country": "Brazil",
+    "timezoneIdentifier": "America/Sao_Paulo",
+    "latitude": -23.4356,
+    "longitude": -46.4731
+  },
+  {
+    "iataCode": "GIG",
+    "name": "Rio de Janeiro/Galeão International Airport",
+    "city": "Rio de Janeiro",
+    "country": "Brazil",
+    "timezoneIdentifier": "America/Sao_Paulo",
+    "latitude": -22.8100,
+    "longitude": -43.2506
+  },
+  {
+    "iataCode": "BSB",
+    "name": "Brasília International Airport",
+    "city": "Brasilia",
+    "country": "Brazil",
+    "timezoneIdentifier": "America/Sao_Paulo",
+    "latitude": -15.8711,
+    "longitude": -47.9186
+  },
+  {
+    "iataCode": "SCL",
+    "name": "Arturo Merino Benítez International Airport",
+    "city": "Santiago",
+    "country": "Chile",
+    "timezoneIdentifier": "America/Santiago",
+    "latitude": -33.3930,
+    "longitude": -70.7858
+  },
+  {
+    "iataCode": "EZE",
+    "name": "Ministro Pistarini International Airport",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "timezoneIdentifier": "America/Argentina/Buenos_Aires",
+    "latitude": -34.8222,
+    "longitude": -58.5358
+  },
+  {
+    "iataCode": "AEP",
+    "name": "Jorge Newbery Airfield",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "timezoneIdentifier": "America/Argentina/Buenos_Aires",
+    "latitude": -34.5592,
+    "longitude": -58.4156
+  },
+  {
+    "iataCode": "BOG",
+    "name": "El Dorado International Airport",
+    "city": "Bogota",
+    "country": "Colombia",
+    "timezoneIdentifier": "America/Bogota",
+    "latitude": 4.7016,
+    "longitude": -74.1469
+  },
+  {
+    "iataCode": "LIM",
+    "name": "Jorge Chávez International Airport",
+    "city": "Lima",
+    "country": "Peru",
+    "timezoneIdentifier": "America/Lima",
+    "latitude": -12.0219,
+    "longitude": -77.1143
+  },
+  {
+    "iataCode": "UIO",
+    "name": "Mariscal Sucre International Airport",
+    "city": "Quito",
+    "country": "Ecuador",
+    "timezoneIdentifier": "America/Guayaquil",
+    "latitude": -0.1292,
+    "longitude": -78.3575
+  },
+  {
+    "iataCode": "CCS",
+    "name": "Simón Bolívar International Airport",
+    "city": "Caracas",
+    "country": "Venezuela",
+    "timezoneIdentifier": "America/Caracas",
+    "latitude": 10.6012,
+    "longitude": -66.9913
+  },
+  {
+    "iataCode": "MVD",
+    "name": "Carrasco International Airport",
+    "city": "Montevideo",
+    "country": "Uruguay",
+    "timezoneIdentifier": "America/Montevideo",
+    "latitude": -34.8384,
+    "longitude": -56.0308
+  },
+  {
+    "iataCode": "PTY",
+    "name": "Tocumen International Airport",
+    "city": "Panama City",
+    "country": "Panama",
+    "timezoneIdentifier": "America/Panama",
+    "latitude": 9.0714,
+    "longitude": -79.3835
+  },
+  {
+    "iataCode": "SJO",
+    "name": "Juan Santamaría International Airport",
+    "city": "San Jose",
+    "country": "Costa Rica",
+    "timezoneIdentifier": "America/Costa_Rica",
+    "latitude": 9.9939,
+    "longitude": -84.2088
+  },
+  {
+    "iataCode": "GUA",
+    "name": "La Aurora International Airport",
+    "city": "Guatemala City",
+    "country": "Guatemala",
+    "timezoneIdentifier": "America/Guatemala",
+    "latitude": 14.5833,
+    "longitude": -90.5275
+  },
+  {
+    "iataCode": "SAL",
+    "name": "Monseñor Óscar Arnulfo Romero International Airport",
+    "city": "San Salvador",
+    "country": "El Salvador",
+    "timezoneIdentifier": "America/El_Salvador",
+    "latitude": 13.4409,
+    "longitude": -89.0557
+  },
+  {
+    "iataCode": "JNB",
+    "name": "O. R. Tambo International Airport",
+    "city": "Johannesburg",
+    "country": "South Africa",
+    "timezoneIdentifier": "Africa/Johannesburg",
+    "latitude": -26.1392,
+    "longitude": 28.2460
+  },
+  {
+    "iataCode": "CPT",
+    "name": "Cape Town International Airport",
+    "city": "Cape Town",
+    "country": "South Africa",
+    "timezoneIdentifier": "Africa/Johannesburg",
+    "latitude": -33.9649,
+    "longitude": 18.6017
+  },
+  {
+    "iataCode": "CAI",
+    "name": "Cairo International Airport",
+    "city": "Cairo",
+    "country": "Egypt",
+    "timezoneIdentifier": "Africa/Cairo",
+    "latitude": 30.1219,
+    "longitude": 31.4056
+  },
+  {
+    "iataCode": "CMN",
+    "name": "Mohammed V International Airport",
+    "city": "Casablanca",
+    "country": "Morocco",
+    "timezoneIdentifier": "Africa/Casablanca",
+    "latitude": 33.3675,
+    "longitude": -7.5898
+  },
+  {
+    "iataCode": "NBO",
+    "name": "Jomo Kenyatta International Airport",
+    "city": "Nairobi",
+    "country": "Kenya",
+    "timezoneIdentifier": "Africa/Nairobi",
+    "latitude": -1.3192,
+    "longitude": 36.9278
+  },
+  {
+    "iataCode": "ADD",
+    "name": "Addis Ababa Bole International Airport",
+    "city": "Addis Ababa",
+    "country": "Ethiopia",
+    "timezoneIdentifier": "Africa/Addis_Ababa",
+    "latitude": 8.9779,
+    "longitude": 38.7993
+  },
+  {
+    "iataCode": "LOS",
+    "name": "Murtala Muhammed International Airport",
+    "city": "Lagos",
+    "country": "Nigeria",
+    "timezoneIdentifier": "Africa/Lagos",
+    "latitude": 6.5774,
+    "longitude": 3.3211
+  },
+  {
+    "iataCode": "ACC",
+    "name": "Kotoka International Airport",
+    "city": "Accra",
+    "country": "Ghana",
+    "timezoneIdentifier": "Africa/Accra",
+    "latitude": 5.6052,
+    "longitude": -0.1668
+  },
+  {
+    "iataCode": "DKR",
+    "name": "Blaise Diagne International Airport",
+    "city": "Dakar",
+    "country": "Senegal",
+    "timezoneIdentifier": "Africa/Dakar",
+    "latitude": 14.6700,
+    "longitude": -17.0733
+  },
+  {
+    "iataCode": "DAR",
+    "name": "Julius Nyerere International Airport",
+    "city": "Dar es Salaam",
+    "country": "Tanzania",
+    "timezoneIdentifier": "Africa/Dar_es_Salaam",
+    "latitude": -6.8781,
+    "longitude": 39.2026
+  },
+  {
+    "iataCode": "MRU",
+    "name": "Sir Seewoosagur Ramgoolam International Airport",
+    "city": "Mahebourg",
+    "country": "Mauritius",
+    "timezoneIdentifier": "Indian/Mauritius",
+    "latitude": -20.4302,
+    "longitude": 57.6836
+  },
+  {
+    "iataCode": "TUN",
+    "name": "Tunis-Carthage International Airport",
+    "city": "Tunis",
+    "country": "Tunisia",
+    "timezoneIdentifier": "Africa/Tunis",
+    "latitude": 36.8510,
+    "longitude": 10.2272
+  },
+  {
+    "iataCode": "ALG",
+    "name": "Houari Boumediene Airport",
+    "city": "Algiers",
+    "country": "Algeria",
+    "timezoneIdentifier": "Africa/Algiers",
+    "latitude": 36.6910,
+    "longitude": 3.2154
+  },
+  {
+    "iataCode": "PIT",
+    "name": "Pittsburgh International Airport",
+    "city": "Pittsburgh",
+    "country": "United States",
+    "timezoneIdentifier": "America/New_York",
+    "latitude": 40.4957,
+    "longitude": -80.2413
+  },
+  {
+    "iataCode": "CLE",
+    "name": "Cleveland Hopkins International Airport",
+    "city": "Cleveland",
+    "country": "United States",
+    "timezoneIdentifier": "America/New_York",
+    "latitude": 41.4058,
+    "longitude": -81.8540
+  },
+  {
+    "iataCode": "IND",
+    "name": "Indianapolis International Airport",
+    "city": "Indianapolis",
+    "country": "United States",
+    "timezoneIdentifier": "America/Indiana/Indianapolis",
+    "latitude": 39.7173,
+    "longitude": -86.2944
+  },
+  {
+    "iataCode": "CMH",
+    "name": "John Glenn Columbus International Airport",
+    "city": "Columbus",
+    "country": "United States",
+    "timezoneIdentifier": "America/New_York",
+    "latitude": 39.9980,
+    "longitude": -82.8919
+  },
+  {
+    "iataCode": "MCI",
+    "name": "Kansas City International Airport",
+    "city": "Kansas City",
+    "country": "United States",
+    "timezoneIdentifier": "America/Chicago",
+    "latitude": 39.2976,
+    "longitude": -94.7139
+  },
+  {
+    "iataCode": "SAT",
+    "name": "San Antonio International Airport",
+    "city": "San Antonio",
+    "country": "United States",
+    "timezoneIdentifier": "America/Chicago",
+    "latitude": 29.5337,
+    "longitude": -98.4698
+  },
+  {
+    "iataCode": "SMF",
+    "name": "Sacramento International Airport",
+    "city": "Sacramento",
+    "country": "United States",
+    "timezoneIdentifier": "America/Los_Angeles",
+    "latitude": 38.6954,
+    "longitude": -121.5908
+  },
+  {
+    "iataCode": "SJC",
+    "name": "San Jose International Airport",
+    "city": "San Jose",
+    "country": "United States",
+    "timezoneIdentifier": "America/Los_Angeles",
+    "latitude": 37.3626,
+    "longitude": -121.9290
+  },
+  {
+    "iataCode": "OAK",
+    "name": "Oakland International Airport",
+    "city": "Oakland",
+    "country": "United States",
+    "timezoneIdentifier": "America/Los_Angeles",
+    "latitude": 37.7213,
+    "longitude": -122.2208
+  },
+  {
+    "iataCode": "FLL",
+    "name": "Fort Lauderdale-Hollywood International Airport",
+    "city": "Fort Lauderdale",
+    "country": "United States",
+    "timezoneIdentifier": "America/New_York",
+    "latitude": 26.0742,
+    "longitude": -80.1506
+  },
+  {
+    "iataCode": "MSY",
+    "name": "Louis Armstrong New Orleans International Airport",
+    "city": "New Orleans",
+    "country": "United States",
+    "timezoneIdentifier": "America/Chicago",
+    "latitude": 29.9934,
+    "longitude": -90.2580
+  },
+  {
+    "iataCode": "JAX",
+    "name": "Jacksonville International Airport",
+    "city": "Jacksonville",
+    "country": "United States",
+    "timezoneIdentifier": "America/New_York",
+    "latitude": 30.4941,
+    "longitude": -81.6879
+  },
+  {
+    "iataCode": "ABQ",
+    "name": "Albuquerque International Sunport",
+    "city": "Albuquerque",
+    "country": "United States",
+    "timezoneIdentifier": "America/Denver",
+    "latitude": 35.0402,
+    "longitude": -106.6092
+  },
+  {
+    "iataCode": "OMA",
+    "name": "Eppley Airfield",
+    "city": "Omaha",
+    "country": "United States",
+    "timezoneIdentifier": "America/Chicago",
+    "latitude": 41.3032,
+    "longitude": -95.8941
+  },
+  {
+    "iataCode": "BUF",
+    "name": "Buffalo Niagara International Airport",
+    "city": "Buffalo",
+    "country": "United States",
+    "timezoneIdentifier": "America/New_York",
+    "latitude": 42.9405,
+    "longitude": -78.7322
+  },
+  {
+    "iataCode": "BDL",
+    "name": "Bradley International Airport",
+    "city": "Hartford",
+    "country": "United States",
+    "timezoneIdentifier": "America/New_York",
+    "latitude": 41.9389,
+    "longitude": -72.6832
+  },
+  {
+    "iataCode": "RIC",
+    "name": "Richmond International Airport",
+    "city": "Richmond",
+    "country": "United States",
+    "timezoneIdentifier": "America/New_York",
+    "latitude": 37.5052,
+    "longitude": -77.3197
+  },
+  {
+    "iataCode": "OKC",
+    "name": "Will Rogers World Airport",
+    "city": "Oklahoma City",
+    "country": "United States",
+    "timezoneIdentifier": "America/Chicago",
+    "latitude": 35.3931,
+    "longitude": -97.6007
+  },
+  {
+    "iataCode": "MEM",
+    "name": "Memphis International Airport",
+    "city": "Memphis",
+    "country": "United States",
+    "timezoneIdentifier": "America/Chicago",
+    "latitude": 35.0424,
+    "longitude": -89.9767
+  },
+  {
+    "iataCode": "LGA",
+    "name": "LaGuardia Airport",
+    "city": "New York",
+    "country": "United States",
+    "timezoneIdentifier": "America/New_York",
+    "latitude": 40.7769,
+    "longitude": -73.8740
+  },
+  {
+    "iataCode": "DCA",
+    "name": "Ronald Reagan Washington National Airport",
+    "city": "Washington",
+    "country": "United States",
+    "timezoneIdentifier": "America/New_York",
+    "latitude": 38.8521,
+    "longitude": -77.0402
+  },
+  {
+    "iataCode": "MDW",
+    "name": "Chicago Midway International Airport",
+    "city": "Chicago",
+    "country": "United States",
+    "timezoneIdentifier": "America/Chicago",
+    "latitude": 41.7868,
+    "longitude": -87.7522
+  },
+  {
+    "iataCode": "HOU",
+    "name": "William P. Hobby Airport",
+    "city": "Houston",
+    "country": "United States",
+    "timezoneIdentifier": "America/Chicago",
+    "latitude": 29.6454,
+    "longitude": -95.2789
+  },
+  {
+    "iataCode": "DAL",
+    "name": "Dallas Love Field",
+    "city": "Dallas",
+    "country": "United States",
+    "timezoneIdentifier": "America/Chicago",
+    "latitude": 32.8471,
+    "longitude": -96.8518
+  },
+  {
+    "iataCode": "BER",
+    "name": "Berlin Brandenburg Airport",
+    "city": "Berlin",
+    "country": "Germany",
+    "timezoneIdentifier": "Europe/Berlin",
+    "latitude": 52.3667,
+    "longitude": 13.5033
+  },
+  {
+    "iataCode": "DUS",
+    "name": "Düsseldorf Airport",
+    "city": "Dusseldorf",
+    "country": "Germany",
+    "timezoneIdentifier": "Europe/Berlin",
+    "latitude": 51.2895,
+    "longitude": 6.7668
+  },
+  {
+    "iataCode": "CGN",
+    "name": "Cologne Bonn Airport",
+    "city": "Cologne",
+    "country": "Germany",
+    "timezoneIdentifier": "Europe/Berlin",
+    "latitude": 50.8659,
+    "longitude": 7.1427
+  },
+  {
+    "iataCode": "STR",
+    "name": "Stuttgart Airport",
+    "city": "Stuttgart",
+    "country": "Germany",
+    "timezoneIdentifier": "Europe/Berlin",
+    "latitude": 48.6899,
+    "longitude": 9.2220
+  },
+  {
+    "iataCode": "NCE",
+    "name": "Nice Côte d'Azur Airport",
+    "city": "Nice",
+    "country": "France",
+    "timezoneIdentifier": "Europe/Paris",
+    "latitude": 43.6584,
+    "longitude": 7.2159
+  },
+  {
+    "iataCode": "LYS",
+    "name": "Lyon-Saint Exupéry Airport",
+    "city": "Lyon",
+    "country": "France",
+    "timezoneIdentifier": "Europe/Paris",
+    "latitude": 45.7256,
+    "longitude": 5.0811
+  },
+  {
+    "iataCode": "MRS",
+    "name": "Marseille Provence Airport",
+    "city": "Marseille",
+    "country": "France",
+    "timezoneIdentifier": "Europe/Paris",
+    "latitude": 43.4393,
+    "longitude": 5.2214
+  },
+  {
+    "iataCode": "GVA",
+    "name": "Geneva Airport",
+    "city": "Geneva",
+    "country": "Switzerland",
+    "timezoneIdentifier": "Europe/Zurich",
+    "latitude": 46.2381,
+    "longitude": 6.1090
+  },
+  {
+    "iataCode": "NAP",
+    "name": "Naples International Airport",
+    "city": "Naples",
+    "country": "Italy",
+    "timezoneIdentifier": "Europe/Rome",
+    "latitude": 40.8860,
+    "longitude": 14.2908
+  },
+  {
+    "iataCode": "VCE",
+    "name": "Venice Marco Polo Airport",
+    "city": "Venice",
+    "country": "Italy",
+    "timezoneIdentifier": "Europe/Rome",
+    "latitude": 45.5053,
+    "longitude": 12.3519
+  },
+  {
+    "iataCode": "PMI",
+    "name": "Palma de Mallorca Airport",
+    "city": "Palma de Mallorca",
+    "country": "Spain",
+    "timezoneIdentifier": "Europe/Madrid",
+    "latitude": 39.5517,
+    "longitude": 2.7388
+  },
+  {
+    "iataCode": "AGP",
+    "name": "Málaga-Costa del Sol Airport",
+    "city": "Malaga",
+    "country": "Spain",
+    "timezoneIdentifier": "Europe/Madrid",
+    "latitude": 36.6749,
+    "longitude": -4.4991
+  },
+  {
+    "iataCode": "OPO",
+    "name": "Francisco Sá Carneiro Airport",
+    "city": "Porto",
+    "country": "Portugal",
+    "timezoneIdentifier": "Europe/Lisbon",
+    "latitude": 41.2481,
+    "longitude": -8.6814
+  },
+  {
+    "iataCode": "KEF",
+    "name": "Keflavík International Airport",
+    "city": "Reykjavik",
+    "country": "Iceland",
+    "timezoneIdentifier": "Atlantic/Reykjavik",
+    "latitude": 63.9850,
+    "longitude": -22.6056
+  },
+  {
+    "iataCode": "SOF",
+    "name": "Sofia Airport",
+    "city": "Sofia",
+    "country": "Bulgaria",
+    "timezoneIdentifier": "Europe/Sofia",
+    "latitude": 42.6952,
+    "longitude": 23.4114
+  },
+  {
+    "iataCode": "SKG",
+    "name": "Thessaloniki Airport",
+    "city": "Thessaloniki",
+    "country": "Greece",
+    "timezoneIdentifier": "Europe/Athens",
+    "latitude": 40.5197,
+    "longitude": 22.9709
+  },
+  {
+    "iataCode": "LJU",
+    "name": "Ljubljana Jože Pučnik Airport",
+    "city": "Ljubljana",
+    "country": "Slovenia",
+    "timezoneIdentifier": "Europe/Ljubljana",
+    "latitude": 46.2237,
+    "longitude": 14.4576
+  },
+  {
+    "iataCode": "TLL",
+    "name": "Lennart Meri Tallinn Airport",
+    "city": "Tallinn",
+    "country": "Estonia",
+    "timezoneIdentifier": "Europe/Tallinn",
+    "latitude": 59.4133,
+    "longitude": 24.8328
+  },
+  {
+    "iataCode": "RIX",
+    "name": "Riga International Airport",
+    "city": "Riga",
+    "country": "Latvia",
+    "timezoneIdentifier": "Europe/Riga",
+    "latitude": 56.9236,
+    "longitude": 23.9711
+  },
+  {
+    "iataCode": "VNO",
+    "name": "Vilnius Airport",
+    "city": "Vilnius",
+    "country": "Lithuania",
+    "timezoneIdentifier": "Europe/Vilnius",
+    "latitude": 54.6341,
+    "longitude": 25.2858
+  },
+  {
+    "iataCode": "KRK",
+    "name": "Kraków John Paul II International Airport",
+    "city": "Krakow",
+    "country": "Poland",
+    "timezoneIdentifier": "Europe/Warsaw",
+    "latitude": 50.0777,
+    "longitude": 19.7848
+  },
+  {
+    "iataCode": "GDA",
+    "name": "Gdańsk Lech Wałęsa Airport",
+    "city": "Gdansk",
+    "country": "Poland",
+    "timezoneIdentifier": "Europe/Warsaw",
+    "latitude": 54.3776,
+    "longitude": 18.4662
+  },
+  {
+    "iataCode": "CAN",
+    "name": "Guangzhou Baiyun International Airport",
+    "city": "Guangzhou",
+    "country": "China",
+    "timezoneIdentifier": "Asia/Shanghai",
+    "latitude": 23.3924,
+    "longitude": 113.2988
+  },
+  {
+    "iataCode": "SZX",
+    "name": "Shenzhen Bao'an International Airport",
+    "city": "Shenzhen",
+    "country": "China",
+    "timezoneIdentifier": "Asia/Shanghai",
+    "latitude": 22.6393,
+    "longitude": 113.8107
+  },
+  {
+    "iataCode": "CTU",
+    "name": "Chengdu Shuangliu International Airport",
+    "city": "Chengdu",
+    "country": "China",
+    "timezoneIdentifier": "Asia/Shanghai",
+    "latitude": 30.5785,
+    "longitude": 103.9471
+  },
+  {
+    "iataCode": "CKG",
+    "name": "Chongqing Jiangbei International Airport",
+    "city": "Chongqing",
+    "country": "China",
+    "timezoneIdentifier": "Asia/Shanghai",
+    "latitude": 29.7192,
+    "longitude": 106.6417
+  },
+  {
+    "iataCode": "XIY",
+    "name": "Xi'an Xianyang International Airport",
+    "city": "Xi'an",
+    "country": "China",
+    "timezoneIdentifier": "Asia/Shanghai",
+    "latitude": 34.4471,
+    "longitude": 108.7516
+  },
+  {
+    "iataCode": "HGH",
+    "name": "Hangzhou Xiaoshan International Airport",
+    "city": "Hangzhou",
+    "country": "China",
+    "timezoneIdentifier": "Asia/Shanghai",
+    "latitude": 30.2295,
+    "longitude": 120.4344
+  },
+  {
+    "iataCode": "NKG",
+    "name": "Nanjing Lukou International Airport",
+    "city": "Nanjing",
+    "country": "China",
+    "timezoneIdentifier": "Asia/Shanghai",
+    "latitude": 31.7420,
+    "longitude": 118.8620
+  },
+  {
+    "iataCode": "DMK",
+    "name": "Don Mueang International Airport",
+    "city": "Bangkok",
+    "country": "Thailand",
+    "timezoneIdentifier": "Asia/Bangkok",
+    "latitude": 13.9126,
+    "longitude": 100.6068
+  },
+  {
+    "iataCode": "HKT",
+    "name": "Phuket International Airport",
+    "city": "Phuket",
+    "country": "Thailand",
+    "timezoneIdentifier": "Asia/Bangkok",
+    "latitude": 8.1132,
+    "longitude": 98.3169
+  },
+  {
+    "iataCode": "CNX",
+    "name": "Chiang Mai International Airport",
+    "city": "Chiang Mai",
+    "country": "Thailand",
+    "timezoneIdentifier": "Asia/Bangkok",
+    "latitude": 18.7668,
+    "longitude": 98.9625
+  },
+  {
+    "iataCode": "DPS",
+    "name": "Ngurah Rai International Airport",
+    "city": "Bali",
+    "country": "Indonesia",
+    "timezoneIdentifier": "Asia/Makassar",
+    "latitude": -8.7482,
+    "longitude": 115.1672
+  },
+  {
+    "iataCode": "SUB",
+    "name": "Juanda International Airport",
+    "city": "Surabaya",
+    "country": "Indonesia",
+    "timezoneIdentifier": "Asia/Jakarta",
+    "latitude": -7.3798,
+    "longitude": 112.7868
+  },
+  {
+    "iataCode": "CEB",
+    "name": "Mactan-Cebu International Airport",
+    "city": "Cebu",
+    "country": "Philippines",
+    "timezoneIdentifier": "Asia/Manila",
+    "latitude": 10.3075,
+    "longitude": 123.9794
+  },
+  {
+    "iataCode": "PNH",
+    "name": "Phnom Penh International Airport",
+    "city": "Phnom Penh",
+    "country": "Cambodia",
+    "timezoneIdentifier": "Asia/Phnom_Penh",
+    "latitude": 11.5466,
+    "longitude": 104.8441
+  },
+  {
+    "iataCode": "REP",
+    "name": "Siem Reap International Airport",
+    "city": "Siem Reap",
+    "country": "Cambodia",
+    "timezoneIdentifier": "Asia/Phnom_Penh",
+    "latitude": 13.4107,
+    "longitude": 103.8130
+  },
+  {
+    "iataCode": "VTE",
+    "name": "Wattay International Airport",
+    "city": "Vientiane",
+    "country": "Laos",
+    "timezoneIdentifier": "Asia/Vientiane",
+    "latitude": 17.9883,
+    "longitude": 102.5633
+  },
+  {
+    "iataCode": "MLE",
+    "name": "Velana International Airport",
+    "city": "Male",
+    "country": "Maldives",
+    "timezoneIdentifier": "Indian/Maldives",
+    "latitude": 4.1918,
+    "longitude": 73.5290
+  },
+  {
+    "iataCode": "HYD",
+    "name": "Rajiv Gandhi International Airport",
+    "city": "Hyderabad",
+    "country": "India",
+    "timezoneIdentifier": "Asia/Kolkata",
+    "latitude": 17.2403,
+    "longitude": 78.4294
+  },
+  {
+    "iataCode": "COK",
+    "name": "Cochin International Airport",
+    "city": "Kochi",
+    "country": "India",
+    "timezoneIdentifier": "Asia/Kolkata",
+    "latitude": 10.1520,
+    "longitude": 76.4019
+  },
+  {
+    "iataCode": "AMD",
+    "name": "Sardar Vallabhbhai Patel International Airport",
+    "city": "Ahmedabad",
+    "country": "India",
+    "timezoneIdentifier": "Asia/Kolkata",
+    "latitude": 23.0772,
+    "longitude": 72.6347
+  },
+  {
+    "iataCode": "GOI",
+    "name": "Goa International Airport",
+    "city": "Goa",
+    "country": "India",
+    "timezoneIdentifier": "Asia/Kolkata",
+    "latitude": 15.3809,
+    "longitude": 73.8314
+  },
+  {
+    "iataCode": "MFM",
+    "name": "Macau International Airport",
+    "city": "Macau",
+    "country": "Macau",
+    "timezoneIdentifier": "Asia/Macau",
+    "latitude": 22.1496,
+    "longitude": 113.5915
+  },
+  {
+    "iataCode": "FUK",
+    "name": "Fukuoka Airport",
+    "city": "Fukuoka",
+    "country": "Japan",
+    "timezoneIdentifier": "Asia/Tokyo",
+    "latitude": 33.5859,
+    "longitude": 130.4511
+  },
+  {
+    "iataCode": "CTS",
+    "name": "New Chitose Airport",
+    "city": "Sapporo",
+    "country": "Japan",
+    "timezoneIdentifier": "Asia/Tokyo",
+    "latitude": 42.7752,
+    "longitude": 141.6925
+  },
+  {
+    "iataCode": "NGO",
+    "name": "Chubu Centrair International Airport",
+    "city": "Nagoya",
+    "country": "Japan",
+    "timezoneIdentifier": "Asia/Tokyo",
+    "latitude": 34.8584,
+    "longitude": 136.8105
+  },
+  {
+    "iataCode": "PUS",
+    "name": "Gimhae International Airport",
+    "city": "Busan",
+    "country": "South Korea",
+    "timezoneIdentifier": "Asia/Seoul",
+    "latitude": 35.1795,
+    "longitude": 128.9382
+  },
+  {
+    "iataCode": "CJU",
+    "name": "Jeju International Airport",
+    "city": "Jeju",
+    "country": "South Korea",
+    "timezoneIdentifier": "Asia/Seoul",
+    "latitude": 33.5112,
+    "longitude": 126.4929
+  },
+  {
+    "iataCode": "ULN",
+    "name": "Chinggis Khaan International Airport",
+    "city": "Ulaanbaatar",
+    "country": "Mongolia",
+    "timezoneIdentifier": "Asia/Ulaanbaatar",
+    "latitude": 47.8431,
+    "longitude": 106.7672
+  },
+  {
+    "iataCode": "TAS",
+    "name": "Tashkent International Airport",
+    "city": "Tashkent",
+    "country": "Uzbekistan",
+    "timezoneIdentifier": "Asia/Tashkent",
+    "latitude": 41.2579,
+    "longitude": 69.2813
+  },
+  {
+    "iataCode": "ALA",
+    "name": "Almaty International Airport",
+    "city": "Almaty",
+    "country": "Kazakhstan",
+    "timezoneIdentifier": "Asia/Almaty",
+    "latitude": 43.3521,
+    "longitude": 77.0405
+  },
+  {
+    "iataCode": "GYD",
+    "name": "Heydar Aliyev International Airport",
+    "city": "Baku",
+    "country": "Azerbaijan",
+    "timezoneIdentifier": "Asia/Baku",
+    "latitude": 40.4675,
+    "longitude": 50.0467
+  },
+  {
+    "iataCode": "TBS",
+    "name": "Tbilisi International Airport",
+    "city": "Tbilisi",
+    "country": "Georgia",
+    "timezoneIdentifier": "Asia/Tbilisi",
+    "latitude": 41.6692,
+    "longitude": 44.9547
+  },
+  {
+    "iataCode": "EVN",
+    "name": "Zvartnots International Airport",
+    "city": "Yerevan",
+    "country": "Armenia",
+    "timezoneIdentifier": "Asia/Yerevan",
+    "latitude": 40.1473,
+    "longitude": 44.3959
+  },
+  {
+    "iataCode": "ADL",
+    "name": "Adelaide Airport",
+    "city": "Adelaide",
+    "country": "Australia",
+    "timezoneIdentifier": "Australia/Adelaide",
+    "latitude": -34.9461,
+    "longitude": 138.5311
+  },
+  {
+    "iataCode": "CBR",
+    "name": "Canberra Airport",
+    "city": "Canberra",
+    "country": "Australia",
+    "timezoneIdentifier": "Australia/Sydney",
+    "latitude": -35.3069,
+    "longitude": 149.1951
+  },
+  {
+    "iataCode": "OOL",
+    "name": "Gold Coast Airport",
+    "city": "Gold Coast",
+    "country": "Australia",
+    "timezoneIdentifier": "Australia/Brisbane",
+    "latitude": -28.1644,
+    "longitude": 153.5047
+  },
+  {
+    "iataCode": "DRW",
+    "name": "Darwin International Airport",
+    "city": "Darwin",
+    "country": "Australia",
+    "timezoneIdentifier": "Australia/Darwin",
+    "latitude": -12.4147,
+    "longitude": 130.8769
+  },
+  {
+    "iataCode": "CNS",
+    "name": "Cairns Airport",
+    "city": "Cairns",
+    "country": "Australia",
+    "timezoneIdentifier": "Australia/Brisbane",
+    "latitude": -16.8858,
+    "longitude": 145.7554
+  },
+  {
+    "iataCode": "FOR",
+    "name": "Pinto Martins International Airport",
+    "city": "Fortaleza",
+    "country": "Brazil",
+    "timezoneIdentifier": "America/Fortaleza",
+    "latitude": -3.7763,
+    "longitude": -38.5326
+  },
+  {
+    "iataCode": "SSA",
+    "name": "Deputado Luís Eduardo Magalhães International Airport",
+    "city": "Salvador",
+    "country": "Brazil",
+    "timezoneIdentifier": "America/Bahia",
+    "latitude": -12.9086,
+    "longitude": -38.3225
+  },
+  {
+    "iataCode": "REC",
+    "name": "Recife/Guararapes International Airport",
+    "city": "Recife",
+    "country": "Brazil",
+    "timezoneIdentifier": "America/Recife",
+    "latitude": -8.1265,
+    "longitude": -34.9236
+  },
+  {
+    "iataCode": "CNF",
+    "name": "Tancredo Neves International Airport",
+    "city": "Belo Horizonte",
+    "country": "Brazil",
+    "timezoneIdentifier": "America/Sao_Paulo",
+    "latitude": -19.6244,
+    "longitude": -43.9719
+  },
+  {
+    "iataCode": "CWB",
+    "name": "Afonso Pena International Airport",
+    "city": "Curitiba",
+    "country": "Brazil",
+    "timezoneIdentifier": "America/Sao_Paulo",
+    "latitude": -25.5285,
+    "longitude": -49.1758
+  },
+  {
+    "iataCode": "MDE",
+    "name": "José María Córdova International Airport",
+    "city": "Medellin",
+    "country": "Colombia",
+    "timezoneIdentifier": "America/Bogota",
+    "latitude": 6.1645,
+    "longitude": -75.4231
+  },
+  {
+    "iataCode": "CTG",
+    "name": "Rafael Núñez International Airport",
+    "city": "Cartagena",
+    "country": "Colombia",
+    "timezoneIdentifier": "America/Bogota",
+    "latitude": 10.4424,
+    "longitude": -75.5130
+  }
+]
