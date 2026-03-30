@@ -10,9 +10,25 @@
 		D01BA6F72F2C256B001A1C1E /* Jetter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jetter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		D02A6B102F55A0D9009A1C1E /* Exceptions for "Jetter" folder in "Jetter" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Configuration/APIKeys.plist,
+				Configuration/APIKeys.plist.example,
+				Configuration/Secrets.xcconfig,
+				Configuration/Secrets.xcconfig.example,
+			);
+			target = D01BA6F62F2C256B001A1C1E /* Jetter */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		D01BA6F92F2C256B001A1C1E /* Jetter */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D02A6B102F55A0D9009A1C1E /* Exceptions for "Jetter" folder in "Jetter" target */,
+			);
 			path = Jetter;
 			sourceTree = "<group>";
 		};
