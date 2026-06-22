@@ -1,184 +1,112 @@
-# Jetter
+<div align="center">
 
-Jetter is an iOS app for planning sleep around long-haul travel. It helps you turn a flight into a practical jet-lag strategy by combining route data, timezone math, sleep-cycle timing, meal scheduling, and pre-flight preparation guidance.
+# ✈️ Jetter
 
-The app supports two ways to build a plan:
+### Turn any long-haul flight into a jet-lag battle plan.
 
-- Look up a flight by number and date using AeroDataBox via RapidAPI.
-- Enter the route and timing manually when you do not want to rely on live flight data.
+Jetter is a SwiftUI iOS app that fuses route data, timezone math, and sleep-cycle timing into a personalized in-flight sleep schedule, meal plan, and recovery strategy — so you land ready, not wrecked.
 
-## What the App Does
+![Swift](https://img.shields.io/badge/Swift-5-FA7343?logo=swift&logoColor=white)
+![SwiftUI](https://img.shields.io/badge/SwiftUI-0055FF?logo=swift&logoColor=white)
+![iOS](https://img.shields.io/badge/iOS-26-000000?logo=apple&logoColor=white)
+![Xcode](https://img.shields.io/badge/Xcode-147EFB?logo=xcode&logoColor=white)
+![AeroDataBox](https://img.shields.io/badge/AeroDataBox-API-1f6feb)
 
-- Stores flights locally and shows them in a saved flights list.
-- Lets you create a trip from a flight number or from manual airport/time input.
-- Searches a bundled airport database for route selection.
-- Estimates flight duration when airports are known but a duration has not been entered.
-- Calculates an in-flight sleep window based on route, duration, and arrival timezone.
-- Scores jet lag severity and estimated recovery time.
-- Generates meal timing suggestions, readiness scoring, smart tips, and pre-flight prep guidance.
-- Builds a shareable summary image and text snippet for the trip plan.
+</div>
 
-## Product Flow
+---
 
-1. Open the app to a saved flights list.
-2. Add a new trip from the `+` button.
-3. Choose `Flight Number` for API-assisted autofill or `Manual Entry` for a fully local workflow.
-4. Enter normal bedtime and wake time so the schedule can adapt to the traveler.
-5. Review the generated plan in the results screen.
+## ✨ What it does
 
-The results experience includes:
+Give Jetter a flight — by number or by hand — and it builds a complete circadian game plan around it:
 
-- A flight timeline with the recommended sleep block.
-- Meal service guidance when the schedule includes meals.
-- A circadian timeline view.
-- Pre-flight preparation guidance for upcoming trips.
-- Sleep window and sleep cycle summaries.
-- A jet lag severity gauge.
-- A travel readiness score.
-- Practical tips for the route and timezone shift.
+- 🛫 **Two ways to plan** — look up a flight by number + date (AeroDataBox via RapidAPI), or enter the route manually with **no API key required**.
+- 😴 **Timezone-aware sleep window** — places a realistic in-flight sleep block based on route, duration, direction (eastbound vs westbound), and arrival timezone.
+- 📊 **Jet-lag severity + recovery estimate** — scores how rough the shift will be and how long recovery will take.
+- 🍽️ **Meal-timing guidance** — schedules meals around your sleep block.
+- ✅ **Travel-readiness score** — plus a pre-flight preparation timeline for the days before you fly.
+- 🕑 **Circadian timeline** — a visual clock of your body clock vs. destination time, with a sleep-pressure curve.
+- 📤 **Shareable plan** — generates a text summary and a rendered SwiftUI share card.
+- 💾 **Local-first** — saved flights persist on-device as JSON, and manual mode works fully offline.
 
-## Key Features
+## 🧭 How a plan comes together
 
-### Flight Lookup
-
-`Flight Number` mode uses `AeroDataBoxService` to fetch scheduled departure details, airports, and duration for a given flight number and date. Results are cached in memory during the session to avoid repeated lookups for the same flight/date combination.
-
-If live lookup fails, the app surfaces a recovery message and the user can fall back to manual entry.
-
-### Manual Planning
-
-`Manual Entry` mode works without any API key. Users pick departure and arrival airports from the bundled airport database, choose departure date/time, confirm or edit the estimated duration, and then generate a sleep plan.
-
-### Timezone-Aware Recommendations
-
-The planning layer uses the departure and arrival timezones to:
-
-- measure timezone shift
-- determine eastbound vs westbound travel
-- estimate recovery difficulty
-- choose when the traveler should wake relative to landing
-- place a realistic sleep block inside the flight window
-
-### Local-First Flight Storage
-
-Saved flights are stored on-device as JSON in the app's documents directory. On a fresh install, the app seeds sample flights so the UI is not empty on first launch.
-
-### Shareable Output
-
-The results screen can generate a share sheet payload with:
-
-- a text summary of the route and sleep strategy
-- a rendered share card image built from SwiftUI
-
-## Architecture Overview
-
-Jetter is a SwiftUI app with a fairly clean split between views, view models, domain models, and calculation or networking services.
-
-- `Jetter/Views/` contains the UI flow for flight list, input, onboarding, results, and circadian timeline screens.
-- `Jetter/ViewModels/` owns flight input state and result composition.
-- `Jetter/Models/` contains route, airport, sleep, meal, readiness, and API response models.
-- `Jetter/Services/` contains the calculation and integration layer.
-- `Jetter/DesignSystem/` defines the app's colors, typography, components, shapes, and animations.
-- `Jetter/Resources/airports.json` provides the bundled airport dataset used for manual search.
-
-Important services:
-
-- `FlightStore`: local persistence for saved trips.
-- `AirportDatabase`: bundled airport search and fallback airport creation for API results.
-- `AeroDataBoxService`: live flight lookup.
-- `SleepCalculator`: core in-flight sleep window calculation.
-- `JetLagCalculator`: timezone shift severity and recovery estimate.
-- `MealServiceCalculator`: meal scheduling around the sleep plan.
-- `ReadinessCalculator`: travel readiness scoring.
-- `PreFlightPreparationCalculator`: preparation timeline generation.
-- `ShareManager`: share text and image generation.
-
-## Tech Stack
-
-- SwiftUI for the app UI
-- Swift observation via `@Observable`
-- Foundation networking with a small `NetworkClient`
-- Local JSON persistence
-- Bundled JSON resource data for airport search
-- UIKit interop for the share sheet
-
-## Repository Layout
-
-```text
-Jetter/
-├── Jetter.xcodeproj
-├── Jetter/
-│   ├── Assets.xcassets/
-│   ├── Configuration/
-│   ├── DesignSystem/
-│   ├── Models/
-│   ├── Resources/
-│   ├── Services/
-│   ├── ViewModels/
-│   └── Views/
-└── README.md
+```mermaid
+flowchart LR
+  A[Flight number + date<br/>or manual route] --> B{Lookup mode?}
+  B -->|Flight #| C[AeroDataBoxService<br/>live schedule + airports]
+  B -->|Manual| D[AirportDatabase<br/>bundled airports.json]
+  C --> E[Timezone + duration]
+  D --> E
+  E --> F[SleepCalculator<br/>in-flight sleep window]
+  F --> G[JetLag - Meal - Readiness<br/>Circadian - Tips]
+  G --> H[Results: timeline - gauge - circadian clock<br/>readiness - meals - tips]
+  H --> I[ShareManager<br/>shareable card + text]
 ```
 
-## Local Development
+## 🧰 Tech stack
 
-### Requirements
+| Area | Details |
+|---|---|
+| **UI** | SwiftUI, `@Observable` state, a custom design system (colors, typography, components, shapes, animations), haptics |
+| **Data** | Foundation networking (`NetworkClient`), local JSON persistence, bundled `airports.json` |
+| **Integrations** | AeroDataBox (RapidAPI) for live flight lookup; UIKit interop for the share sheet |
+| **Platform** | iOS 26.2 target · Swift 5 · Xcode |
 
-- macOS with Xcode installed
-- The current project is configured with an iOS deployment target of `26.2`
+## 🏛️ Architecture
 
-### Run the App
+A clean split between views, view models, domain models, and a calculation/networking service layer:
 
-1. Open `Jetter.xcodeproj` in Xcode.
-2. Choose an iPhone simulator or device target.
-3. Build and run the `Jetter` scheme.
+```
+Jetter/
+├── Views/          # FlightList · Input · Onboarding · Results · CircadianTimeline
+├── ViewModels/     # flight input state + result composition
+├── Models/         # Airport · FlightInfo · SleepSchedule · JetLagSeverity · ...
+├── Services/       # the brains (see below)
+├── DesignSystem/   # colors · typography · components · shapes · animations
+└── Resources/      # airports.json (bundled airport dataset)
+```
 
-### Enable Live Flight Lookup
+**The service layer does the heavy lifting:**
 
-Live flight lookup is optional. The app can still be used in manual mode without it.
+| Service | Responsibility |
+|---|---|
+| `SleepCalculator` | core in-flight sleep-window calculation |
+| `JetLagCalculator` | timezone-shift severity + recovery estimate |
+| `MealServiceCalculator` | meal scheduling around the sleep plan |
+| `ReadinessCalculator` | travel-readiness scoring |
+| `PreFlightPreparationCalculator` | pre-trip preparation timeline |
+| `CircadianCalculator` | body-clock timeline + sleep-pressure curve |
+| `AeroDataBoxService` | live flight lookup (cached per session) |
+| `AirportDatabase` | bundled airport search + API fallback |
+| `FlightStore` | on-device saved-flight persistence |
+| `ShareManager` | share text + rendered card image |
 
-1. Copy `Jetter/Configuration/APIKeys.plist.example` to `Jetter/Configuration/APIKeys.plist`.
-2. Replace `YOUR_RAPIDAPI_KEY` with a valid AeroDataBox RapidAPI key.
-3. Build and run the app.
+## 🚀 Getting started
 
-The lookup layer expects a plist key named `AeroDataBoxKey`.
+**Requirements:** macOS + Xcode, and an iOS 26.2 simulator or device.
 
-## Secrets and Public Repo Safety
+```bash
+git clone https://github.com/shinic1/Jetter.git
+open Jetter/Jetter.xcodeproj
+```
 
-This repository is prepared to be public.
+Pick a simulator and run the **Jetter** scheme.
 
-- `Jetter/Configuration/APIKeys.plist` is gitignored.
-- `Jetter/Configuration/Secrets.xcconfig` is gitignored.
-- Example files are included for local setup.
-- The Xcode project excludes those local config files from target membership, so they are not bundled into the built app by default.
+### Optional: live flight lookup
 
-If you clone this repo, do not commit real credentials into `Configuration/`.
+Manual mode needs no key. To enable flight-number lookup:
 
-## Data and Persistence Notes
+1. Copy `Jetter/Configuration/APIKeys.plist.example` → `APIKeys.plist`.
+2. Set `AeroDataBoxKey` to a valid AeroDataBox RapidAPI key.
+3. Build & run.
 
-- Saved flights are written to `saved_flights.json` in the app's documents directory.
-- Airport search uses the bundled `airports.json` file.
-- If an airport returned by the API is missing from the bundled dataset, the app creates a minimal in-memory fallback airport model from API data.
+> 🔒 `APIKeys.plist` and `Secrets.xcconfig` are gitignored and excluded from target membership — never commit real credentials.
 
-## Current Scope
+---
 
-What is implemented today:
+<div align="center">
 
-- saved flights list
-- flight lookup by number
-- manual route entry
-- timezone-aware sleep planning
-- meal guidance
-- pre-flight preparation timeline
-- circadian timeline
-- readiness scoring
-- shareable plan output
+Built by <b>Nico Bourel</b> · <a href="https://swedev.online">swedev.online</a>
 
-What appears to be scaffolded for future work:
-
-- deep linking into a specific saved flight
-
-## Notes for Contributors
-
-- Manual entry should remain functional even when no API key is configured.
-- Public changes should preserve the current secret-handling setup.
-- If you add new local config files, update `.gitignore` and the Xcode project membership rules so they cannot be committed or bundled accidentally.
+</div>
